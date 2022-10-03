@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-black{
+    background: black;
+}
+.border1{
+    border:3px solid white;
+    border-radius: 100px;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+}
+
+.icon{
+    font-size: 25px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.iconf{
+    font-size: 40px;
+}
+
+.icon2{
+    border: 0px solid;
+    border-radius: 5px;
+    background: gray;
+    height: 50px;
+    
+}
+.learnmore{
+    justify-content: center;
+    gap: 15px;
+}
+.about{border-bottom:1px solid; font-size: 20px;}
+
+.imgbord{border:0px solid white; border-radius: 20px;}
+
+.course1{
+    background-image: url('./img/98612213.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0px solid;
+    border-radius: 10px;
+    height:  193px;
+}
+
+.good2{
+    border:0px solid;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 37);
+    /* width: 287px; */
+}
+
+.course2{
+    background-image: url('./img/UXUI.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0px solid;
+    border-radius: 10px;
+    height:  193px;
+}
+
+.course3{
+    background-image: url('./img/ui2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0px solid;
+    border-radius: 10px;
+    height:  193px;
+}
+
+.list-none{
+    list-style-type: none;
+    justify-content: center;
+}
+
+.bordstyle{
+    border:2px solid gray;
+    border-radius: 10px;
+    width: 570px;
+    margin: auto;
+    padding: 0 100px;
+}
+.bordstyles{
+    border:2px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+}
+.down{
+    border:0px solid;
+    border-radius: 5px;
+}
+@media screen and (max-width:700px){
+    .bordstyles{
+        border:0px solid gray;
+        border-radius: 10px;
+        width: 70px;
+        background: rgba(10, 10, 10, 0.599);
+        position: absolute !important;
+        top: 150px !important;
+        margin: auto;
+        /* justify-content: center; */
+        /* align-items: center; */
+        text-align: center;
+    }
+    .fixedtop{
+        position: fixed;
+        top: 0;
+    }
+    .iconf{
+        font-size: 25px;
+    }
+
+    .bordstyle{
+        border:2px solid gray;
+        border-radius: 10px;
+        width: 500px;
+        margin: auto;
+        padding: 0 100px;
+    }
+} 
+
+@media screen and (max-width:800px){
+    .user{
+        margin-top: 190px !important;
+    }
+  
+} 
