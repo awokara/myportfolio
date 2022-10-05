@@ -112,6 +112,11 @@
 .insta1{
     display: none;
 }
+
+.seicon{
+    border:0px solid;
+    border-radius: 10px;
+}
 /* .insta{
     display: block;
 } */
