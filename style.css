@@ -15,6 +15,11 @@
     width: 120px;
 }
 
+.thomp2{
+    display: flex;
+    justify-content: space-between;
+}
+
 .icon{
     font-size: 25px;
     gap: 15px;
@@ -137,10 +142,11 @@
         border:2px solid gray;
         border-radius: 10px;
         margin: auto;
+        width: 350px;
         padding: 0 100px;
     }
     .thom{
-        font-size: 20px;
+        font-size: 25px;
     }
     .more{
         display: block;
