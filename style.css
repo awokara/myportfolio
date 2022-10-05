@@ -96,6 +96,22 @@
     border:0px solid;
     border-radius: 5px;
 }
+
+.thom{
+    font-size: 40px;
+}
+.more{
+    display: none;
+}
+
+.insta1{
+    display: none;
+}
+/* .insta{
+    display: block;
+} */
+
+
 @media screen and (max-width:700px){
     .bordstyles{
         border:0px solid gray;
@@ -120,12 +136,31 @@
     .bordstyle{
         border:2px solid gray;
         border-radius: 10px;
-        width: 500px;
         margin: auto;
         padding: 0 100px;
     }
-} 
+    .thom{
+        font-size: 20px;
+    }
+    .more{
+        display: block;
+        border: none;
+        margin-top: 13px;
+        /* width: 10px; */
+        /* font-size: 10px; */
+    }
+    .insta{
+        display: none;
+    }
 
+    .insta1{
+        display: block;
+    }
+} 
+.check{
+    background: rgb(80, 3, 3);
+    color: blue;
+}
 @media screen and (max-width:800px){
     .user{
         margin-top: 190px !important;

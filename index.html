@@ -12,15 +12,13 @@
 <body class="bg-black">
     <div class="container-fluid text-white sticky-top bg-black">
        <nav class="container navbar navbar-expand-lg navbar-light bg-black text-white">
-            <a class="navbar-brand  text-white font-weight-bold" href="index.html" style="font-size: 40px;">THOMP<span class="text-primary">SON</span></a>
+            <a class="navbar-brand  text-white font-weight-bold thom" href="index.html">THOMP<span class="text-primary">SON</span></a>
             <!-- <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button> -->
             <div class="ml-auto">
               <a class="text-white bg-primary p-2 down text-decoration-none" href="resume.pdf"  download>Download Resume</a>
             </div>
-    
-            
         </nav>
     </div>
 
@@ -33,15 +31,15 @@
             <h4>Awokara Thompson</h4>
             <p>Front End Developer / Back End Developer</p>
             <div class="d-flex icon">
-                <p><i class="bi bi-globe2 text-primary"></i></p>
-                <i class="bi bi-badge-ad-fill text-warning"></i>
-                <p><i class="bi bi-paint-bucket text-primary"></i></p>
-                <p><i class="bi bi-joystick text-danger"></i></p>  
+                <p><i class="bi bi-bootstrap-fill text-primary"></i></p>
+                <i class="bi bi-piggy-bank-fill text-warning"></i>
+                <p><i class="bi bi-instagram text-primary"></i></p>
+                <p><i class="bi bi-github text-danger"></i></p>  
                 <p><i class="bi bi-award-fill text-warning"></i></p> 
                 <p>Next.</p>
             </div>
             <div class="mt-2">
-                <small>I design and Build websites that meet the requirement of our users, passionate about solvivg interesting problems <br>and turning ideas into  real life  product is my calling.</small>
+                <small>I design and Build websites that meet the requirement of our users, passionate about solvivg interesting problems and turning ideas into  real life  product is my calling.</small>
             </div>
             <div class="mt-5 text-center d-flex learnmore">
                 <a href="about.html" class="btn btn-primary">Let's Talk <span><i class="bi bi-send-fill"></i></span></a>
@@ -54,8 +52,35 @@
         </div>
     </section>
 
+    <div style="height: 10px;">
+
+    </div>
+
+    
+  <div class="d-flex  list-none" id="mobile">
+    <div id="dsno" style="display:none;">
+      <ul id="dsno" class="d-flex">
+      <li class="nav-item active insta1" >
+        <b><a class="nav-link text-white" href="#"><i class="bi bi-instagram text-muted iconf"></i></a></b>
+     </li>
+
+     <li class="nav-item active insta1">
+      <b><a class="nav-link text-white" href="#"> <i class="bi bi-whatsapp text-primary iconf"></i></a></b>
+    </li>
+
+    <li class="nav-item active insta1">
+      <b><a class="nav-link text-white" href="https://github.com/awokara"> <i class="bi bi-github text-danger iconf"></i></a></b>
+    </li>
+
+    <li class="nav-item active insta1">
+      <b><a class="nav-link text-white" href="#"> <i class="bi bi-linkedin text-warning iconf"></i></a></b>
+    </li>
+  </ul>
+  </div>
+  </div>
+
     <div class="mt-5 bg-black bordstyle" id="navbarNavDropdown">
-      <ul class=" list-none d-flex">
+      <ul class=" list-none d-flex thom">
         <li class="nav-item active text-white">
           <b><a class="nav-link text-white" href="index.html"><i class="bi bi-house-fill text-primary iconf"></i><span class="sr-only">(current)</span></a></b>
         </li>
@@ -68,30 +93,64 @@
 
         <li class="nav-item active">
           <b><a class="nav-link text-white" href="contact.html"><i class="bi bi-envelope-fill text-warning iconf"></i></a></b>
-        </li>
-
+        </li>        
+        <div class="more">
         <li class="nav-item active">
-          <b><a class="nav-link text-white" href="#"><i class="bi bi-instagram text-muted iconf"></i></a></b>
-        </li>
+          <b>
+            <!-- <a class="nav-link text-white" href="contact.html"> -->
+            <button onclick={handle()}>
 
-        <li class="nav-item active">
-          <b><a class="nav-link text-white" href="#"> <i class="bi bi-whatsapp text-primary iconf"></i></a></b>
+              <i class="bi bi-menu-button-wide text-primary bg-black iconf" style="border: solid; font-size: 20px;"></i>
+            </button>
+          <!-- </a> -->
+        </b>
         </li>
-
-        <li class="nav-item active">
-          <b><a class="nav-link text-white" href="https://github.com/awokara"> <i class="bi bi-github text-danger iconf"></i></a></b>
-        </li>
-
-
-        <li class="nav-item active">
-          <b><a class="nav-link text-white" href="#"> <i class="bi bi-linkedin text-warning iconf"></i></a></b>
-        </li>
+      </div>
         
+        <div class="d-flex list-none">
+          <!-- <div class="insta"> -->
+          <li class="nav-item active insta">
+            <b><a class="nav-link text-white" href="#"><i class="bi bi-instagram text-muted iconf"></i></a></b>
+          </li>
+      
+          <li class="nav-item active insta">
+            <b><a class="nav-link text-white" href="#"> <i class="bi bi-whatsapp text-primary iconf"></i></a></b>
+          </li>
+      
+          <li class="nav-item active insta">
+            <b><a class="nav-link text-white" href="https://github.com/awokara"> <i class="bi bi-github text-danger iconf"></i></a></b>
+          </li>
+      
+          <li class="nav-item active insta">
+            <b><a class="nav-link text-white" href="#"> <i class="bi bi-linkedin text-warning iconf"></i></a></b>
+          </li>
+        <!-- </div> -->
+        </div>
+      
     </ul>
   </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" ></script>
+        
+    <script>
+      // function handle(){
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      //   var x = 5;
+      //   alert(x)
+      // }
+      // const mobileVar = document.getElementById("mobile")
+    const handle = ()=>{
+      var name = $("#dsno")
+      // alert(mobile)
+      // mobileVar.style.color= "red";
+      // mobileVar.classList.add("check")
+      // mobileVar.classList.contains.remove("check")
+      // mobileVar.classList.toggle("check")
+      name.toggle()
+      // mobileVar.classList.toggle("check",false)
+
+    }
+    </script>
 </body>
 </html>
