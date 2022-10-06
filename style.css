@@ -21,7 +21,7 @@
 }
 
 .icon{
-    font-size: 25px;
+    font-size: 15px;
     gap: 15px;
     justify-content: center;
 }
@@ -135,6 +135,23 @@
         /* align-items: center; */
         text-align: center;
     }
+
+    .res{
+        font-size: 12px;
+    }
+
+    .popup{
+        position: absolute;
+        right: 60px;
+        /* bottom: 5; */
+    }
+
+    .popup1{
+        position: absolute;
+        right: 60px;
+        bottom: 50px;
+    }
+
     .fixedtop{
         position: fixed;
         top: 0;
@@ -150,6 +167,16 @@
         width: 350px;
         padding: 0 100px;
     }
+
+    .iconbord{
+        border:0px solid blue;
+        border-radius: 10px;
+        height: 60px;
+        background: gray;
+
+    }
+
+   
     .thom{
         font-size: 21px;
     }
