@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thompson's Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+<?php include 'head.php';
+include 'header.php';
+?>
 <body class="bg-black text-white">
-
-    <div class="container-fluid text-white sticky-top bg-black">
-        <nav class="container navbar navbar-expand-lg navbar-light bg-black text-white">
-            <a class="navbar-brand  text-white font-weight-bold thom" href="index.html">THOMP<span class="text-primary">SON</span></a>
-            <!-- <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <div class="ml-auto">
-              <a class="text-white bg-primary p-2 down text-decoration-none res" href="resume.pdf"  download>Download Resume</a>
-            </div>      
-        </nav>
-    </div>
 
     <section>
         <div class="container">
@@ -46,17 +26,17 @@
     <div class="my-4  bordstyles" id="navbarNavDropdown">
       <ul class=" list-none d-flex-reverse d-md-flex thom">
         <li class="nav-item active text-white">
-          <b><a class="nav-link text-white" href="index.html"><i class="bi bi-house-fill text-primary iconf"></i><span class="sr-only">(current)</span></a></b>
+          <b><a class="nav-link text-white" href="index.php"><i class="bi bi-house-fill text-primary iconf"></i><span class="sr-only">(current)</span></a></b>
         </li>
         <li class="nav-item active">
-          <b><a class="nav-link text-white" href="about.html"><i class="bi bi-person-fill text-muted iconf"></i></a></b>
+          <b><a class="nav-link text-white" href="about.php"><i class="bi bi-person-fill text-muted iconf"></i></a></b>
         </li>
         <li class="nav-item active">
-          <b><a class="nav-link text-white" href="course.html"><i class="bi bi-chevron-expand text-danger iconf"></i></a></b>
+          <b><a class="nav-link text-white" href="course.php"><i class="bi bi-chevron-expand text-danger iconf"></i></a></b>
         </li>
 
         <li class="nav-item active">
-          <b><a class="nav-link text-white" href="contact.html"><i class="bi bi-envelope-fill text-warning iconf"></i></a></b>
+          <b><a class="nav-link text-white" href="contact.php"><i class="bi bi-envelope-fill text-warning iconf"></i></a></b>
         </li>
 
         <li class="nav-item active">
@@ -64,7 +44,7 @@
         </li>
 
         <li class="nav-item active">
-          <b><a class="nav-link text-white" href="contact.html"> <i class="bi bi-whatsapp text-primary iconf"></i></a></b>
+          <b><a class="nav-link text-white" href="contact.php"> <i class="bi bi-whatsapp text-primary iconf"></i></a></b>
         </li>  
 
         <li class="nav-item active">
